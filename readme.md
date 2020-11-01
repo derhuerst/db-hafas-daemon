@@ -22,7 +22,18 @@ npm install db-hafas-daemon -g
 ## Usage
 
 ```
-todo
+Usage:
+    db-hafas-daemon
+      [--socket]
+      [--ws]
+      [--no-cache]
+      <user-agent>
+Options:
+    --socket           Listen on a local socket.
+    --ws               Listen for WebSocket connections on port 8080.
+    --no-cache         Don't cache data in Redis using cached-hafas-client.
+Examples:
+    db-hafas-daemon --ws 8080 --no-cache my-awesome-program
 ```
 
 
