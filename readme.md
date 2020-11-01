@@ -3,7 +3,7 @@
 **Run a [daemon](https://en.wikipedia.org/wiki/Daemon_%28computing%29) that can query the [Deutsche Bahn HAFAS endpoint](https://github.com/public-transport/db-hafas).**
 
 [![npm version](https://img.shields.io/npm/v/db-hafas-daemon.svg)](https://www.npmjs.com/package/db-hafas-daemon)
-[![build status](https://api.travis-ci.org/derhuerst/db-hafas-daemon.svg?branch=master)](https://travis-ci.org/derhuerst/db-hafas-daemon)
+[![build status](https://img.shields.io/github/workflow/status/derhuerst/db-hafas-daemon/build/main)](https://github.com/derhuerst/db-hafas-daemon/actions)
 ![ISC-licensed](https://img.shields.io/github/license/derhuerst/db-hafas-daemon.svg)
 ![minimum Node.js version](https://img.shields.io/node/v/db-hafas-daemon.svg)
 [![chat with me on Gitter](https://img.shields.io/badge/chat%20with%20me-on%20gitter-512e92.svg)](https://gitter.im/derhuerst)

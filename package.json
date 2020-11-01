@@ -32,10 +32,12 @@
 		"redis": "^3.0.2"
 	},
 	"devDependencies": {
-		"eslint": "^7.9.0"
+		"eslint": "^7.9.0",
+		"pkg": "^4.4.9"
 	},
 	"scripts": {
 		"lint": "eslint .",
+		"build-binaries": "pkg --public -t latest-macos-x64,latest-linux-x64 -o dist/db-hafas-daemon cli.js",
 		"prepublishOnly": "npm run lint"
 	}
 }
