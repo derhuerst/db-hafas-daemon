@@ -1,0 +1,37 @@
+{
+	"name": "db-hafas-daemon",
+	"description": "Run a daemon that can query the Deutsche Bahn HAFAS endpoint.",
+	"version": "1.0.0",
+	"preferGlobal": true,
+	"bin": {
+		"db-hafas-daemon": "./cli.js"
+	},
+	"files": [
+		"cli.js"
+	],
+	"keywords": [
+		"deutsche bahn",
+		"db",
+		"hafas",
+		"transit",
+		"public transport"
+	],
+	"author": "Jannis R <mail@jannisr.de>",
+	"homepage": "https://github.com/derhuerst/db-hafas-daemon",
+	"repository": "derhuerst/db-hafas-daemon",
+	"bugs": "https://github.com/derhuerst/db-hafas-daemon/issues",
+	"license": "ISC",
+	"engines": {
+		"node": ">=12"
+	},
+	"dependencies": {
+		"mri": "^1.1.6"
+	},
+	"devDependencies": {
+		"eslint": "^7.9.0"
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"prepublishOnly": "npm run lint"
+	}
+}
